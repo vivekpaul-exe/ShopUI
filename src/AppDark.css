@@ -1,0 +1,72 @@
+
+/* Use the Mainblue/colur name for swtching between the dark/Light Mode 
+this will save  time and add the button property to 
+have 0 width and highlight none by adding hover 
+this will allow it to visible the button for toggling 
+ 1.  try to add hamburgur menu 
+ and also add responsivness in small screens 
+ 2.   Add new data the old one is lame .
+ todays work ...
+ Tomorrow add the backend 
+ this week deploy and add multiple pay button and sandboxes
+ 
+
+*/
+
+
+:root {
+    --mainBlue:#2a2a72;
+    --mainPurple:#2b1c3a;
+    --lightBlue:#009ffd;
+    --mainWhite:#f3f3f3;
+    --mainDark:#232528;
+    --mainGrey:#343a40;
+    --dark:#0f1111;
+    --mainBlue:#2a2a72;
+    --mainPurple:#58139c;
+    --mainGreen:#082718;
+    --lightPurple:#9131e0;
+    --mainWhite:#f3f3f3;
+    --mainDark:#232528;
+    --mainGrey:#191c1f;
+    --dark:#0f1111;
+    --mainYellow:#ffa400;
+  
+  }
+  body {
+    font-family: 'Josefin Sans', sans-serif !important;
+    background: var(--main) !important;
+    color:var(--mainDark) !important;
+    
+  }
+  .text-title{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+  }
+  .text-blue{
+    color: var(--mainBlue);
+  }
+  .text-bright {
+    color: var(--lightBlue);
+  }
+  .btn-black{
+    background:transparent;
+    text-transform: capitalize;
+    font-size:0.8rem !important;
+    color: var(--mainDark);
+    border-radius: 0 !important;
+    border: 0.1rem solid var(--mainDark) !important;
+  
+  }
+  .btn-black:hover{
+    background: var(--mainDark);
+    color: var(--mainWhite) !important;
+  
+  }
+  .cart-icon{
+    cursor:pointer;
+    font-size:1.2rem;
+    color: var(--mainYellow);
+  }
+  
