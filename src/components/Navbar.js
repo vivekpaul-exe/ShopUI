@@ -40,7 +40,7 @@ export default class NavBar extends React.Component{
                     <AvaWrapper>
                         <img src={man} alt="Avatar" 
                         className="avatar" />
-                        </AvaWrapper>
+                    </AvaWrapper>
                     {/* </Link> */}
                     <ul className = "navbar-nav align-items-center" >
                         <li className="nav-item ml-1" > 

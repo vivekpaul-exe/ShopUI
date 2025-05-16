@@ -64,7 +64,7 @@ h1 {
     margin-top: 0rem;
     position: relative;
     padding: 10rem;
-    font-family: fantasy;
+    font-family: Manrope;
     font-size: 5rem;
     color: #f9d100;
 },

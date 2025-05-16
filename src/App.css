@@ -1,6 +1,6 @@
 :root {
   --mainBlue:#2a2a72;
-  --mainPurple:#9131E0;
+  --mainPurple:#8D5FB9;
   --maintransparent:#ffffff00;
   --mainGreen:#88d317;
   --lightPurple:#9131e0;
@@ -11,14 +11,20 @@
   --mainYellow:#ffa400;
 }
 body {
-  font-family: 'Bree Serif', Serif !important;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
   background: var(--mainWhite) !important;
   color:var(--mainGrey) !important;
   outline: none !important;
   
 }
 .text-title{
-  font-family: 'Bree Serif', sans-serif !important;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
