@@ -16,8 +16,9 @@ class ProductList extends React.Component{
                             <div className='hero-text-detail'>
                                 <h1 className='top-hero'>30%</h1>
                              <p clasName="hero-text-2"> off on</p>
+                              <p className='hero-text-3'>electronics</p>
                             </div>
-                            <p className='hero-text-3'>electronics</p>
+                           
                          </div>
                          </div>
                     </HeroWrapper>
@@ -64,6 +65,8 @@ const HeroWrapper= styled.div`
 },
 .hero-text-detail{
     font-family:Manrope;
+    display:flex;
+    padding:1em;
 
 },
 
@@ -76,11 +79,13 @@ herp-text-2 {
     font-family:Manrope;
     font-weight:300;
     font-size:40px;
+    margin-top:3.6em;
 },
 hero-text-3 {
     font-family:Manrope;
     font-weight:600;
     font-size:40px;
+    font-weight:600;
 },
 h1 {
     text-align: center;
