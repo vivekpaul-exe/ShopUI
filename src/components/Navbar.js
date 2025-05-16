@@ -58,7 +58,7 @@ export default class NavBar extends React.Component{
                             </button>
                         </div>
                     </div>
-                    {/* Srcip[t foor the serach box takes place here] */}
+                    {/* Srcipt for the serach box takes place here] */}
 
                     
                     
