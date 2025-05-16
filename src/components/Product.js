@@ -68,13 +68,17 @@ Product.propTypes = {
 const ProductWrapper = styled.div`
     .card{
         border-color:transparent;
+        width:328px;
+        height:532px;
         transition: all 1s linear;
         
 
     }
     .card-footer{
-        background:transparent;
-        border-top:transparent;
+        background:#EFCFE7;
+        flex-direction:column;
+        border-top:#EFCFE7;
+        height:156px;
         transition:all 1s linear
     }
     &:hover{
@@ -91,6 +95,9 @@ const ProductWrapper = styled.div`
     }
     .img-container{
         position:relative;
+        width: 80%
+        padding:1em !important;
+        margin:auto;
         overflow:hidden;
     }
     .card-img-top{

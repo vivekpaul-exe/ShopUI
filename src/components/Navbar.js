@@ -97,6 +97,7 @@ background:var(--mainPurple) !important;
 .nav-link{
     color:var(--mainWhite) !important;
     font-size:1.0rem;
+    font-family:Manrope !important;
     text-transform: capitalize;
 
 }
@@ -143,6 +144,7 @@ button.ThemeButton {
     border: 3px solid var(--mainGreen);
     border-right: none;
     padding: 5px;
+    font-family:Manrope;
     background-color:var(--mainWhite);
     
     height: 2.4rem;
