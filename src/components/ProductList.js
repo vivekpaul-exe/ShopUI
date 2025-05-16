@@ -16,9 +16,9 @@ class ProductList extends React.Component{
                             <div className='hero-text-detail'>
                                 <h1 className='top-hero'>30%</h1>
                              <p clasName="hero-text-2"> off on</p>
-                              <p className='hero-text-3'>electronics</p>
+                              
                             </div>
-                           
+                           <p className='hero-text-3'>electronics</p>
                          </div>
                          </div>
                     </HeroWrapper>
@@ -61,12 +61,17 @@ const HeroWrapper= styled.div`
     left:50%;
     transform:translate(-50%,-50%);
     color: #F9F9F9 !important;
-
+    padding:1em;
 },
 .hero-text-detail{
     font-family:Manrope;
     display:flex;
-    padding:1em;
+    color: #F9F9F9 !important;
+    
+
+},
+.container {
+    max-width:1440px,
 
 },
 
@@ -77,15 +82,17 @@ const HeroWrapper= styled.div`
 },
 herp-text-2 {
     font-family:Manrope;
-    font-weight:300;
-    font-size:40px;
-    margin-top:3.6em;
+    font-weight:300 !important;
+    color: #F9F9F9 !important;
+    font-size:40px !important;
+    margin-top:3.6em !important;
 },
 hero-text-3 {
     font-family:Manrope;
-    font-weight:600;
-    font-size:40px;
-    font-weight:600;
+    font-weight:600 !important;
+    color: #F9F9F9 !important;
+    font-size:40px !important;
+    font-weight:600 !important;
 },
 h1 {
     text-align: center;
