@@ -43,9 +43,9 @@ export default class NavBar extends React.Component{
                     <ul className = "navbar-nav align-items-center">
                         <li className="nav-item ml-1"> 
                             <Link to="/"  className="nav-link">
-                            <div>
-                                <p>360</p>
-                                <p>store</p>
+                            <div className="logo-name">
+                                <p className="logo-1">360</p>
+                                <p className="logo-2">store</p>
                                 </div>                            
                             </Link>
                         </li>
@@ -67,7 +67,7 @@ export default class NavBar extends React.Component{
                 {/* <Link to="">
                 </Link> */}
                 <Link to="/cart" className= "ml-auto">
-                    <ButtonContainer>
+                    <ButtonContainer className="cart-button">
                         <span className ="mr-2">
                             <i className="fas fa-shopping-cart" />
                         </span>
@@ -98,8 +98,17 @@ background:var(--mainPurple) !important;
     font-family:Manrope !important;
     text-transform: capitalize;
 
-}
-
+},
+logo-name{
+    display:flex,
+    font-size:32,
+},
+logo-1{
+    font-weight:800;
+},
+logo-2{
+    font-weight:300;
+},
 input.flexbox {
     width:36rem;
     outline:none;
@@ -110,7 +119,14 @@ input.flexbox {
 },
 {
     height:2.3rem;
-}
+},
+cart-button {
+    color:#19161F;
+    width:48px;
+    border-radius:16;
+    height:48px;
+    background:#F9F9F9;
+},
 button.search_button {
     outline: none;
     position: absolute;
@@ -139,30 +155,30 @@ button.ThemeButton {
   
   .searchTerm {
     width: 100%;
-    border: 3px solid var(--mainGreen);
+    border: 1px solid #19161F;
     border-right: none;
     padding: 5px;
     font-family:Manrope;
     background-color:var(--mainWhite);
     
     height: 2.4rem;
-    border-radius: 5px 0 0 5px;
+    border-radius: 32px 0 0 32px;
     outline: none;
-    color: var(--mainGreen);
+    color: #19161F;
   }
   
   .searchTerm:focus{
-    color: var(--mainGreen);
+    color: #19161F;
   }
   
   .searchButton {
     width: 40px;
     height: 2.4rem;
-    border: 1px solid  var(--mainGreen);
-    background:  var(--mainGreen);
+    border: 1px solid  #19161F;
+    background:  #19161F;
     text-align: center;
     color: #fff;
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 32px 32px 0;
     cursor: pointer;
     font-size: 20px;
   }
