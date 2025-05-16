@@ -37,19 +37,17 @@ export default class NavBar extends React.Component{
                 
                     {/* <Link to='/'> */}
                     {/* Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> */}
-                    <AvaWrapper>
-                        <img src={man} alt="Avatar" 
-                        className="avatar" />
-                    </AvaWrapper>
+                    
                     {/* </Link> */}
-                    <ul className = "navbar-nav align-items-center" >
-                        <li className="nav-item ml-1" > 
-                            <Link to="/SignUp"  className="nav-link">SignUp</Link>
-                        </li>
-                    </ul>
+                    
                     <ul className = "navbar-nav align-items-center">
                         <li className="nav-item ml-1"> 
-                            <Link to="/"  className="nav-link">products</Link>
+                            <Link to="/"  className="nav-link">
+                            <div>
+                                <p>360</p>
+                                <p>store</p>
+                                </div>                            
+                            </Link>
                         </li>
                     </ul>
                     <div className="wrap">

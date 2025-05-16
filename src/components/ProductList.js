@@ -87,7 +87,7 @@ h1 {
     justify-content: center;
     margin-top: 0rem;
     position: relative;
-    padding: 10rem;
+    // padding: 10rem;
     font-family: Manrope;
     font-size: 5rem;
     color: #f9d100;
