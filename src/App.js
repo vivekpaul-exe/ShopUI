@@ -28,8 +28,8 @@ export default function App(){
   return(
       <React.Fragment>
         {/* <Route exact path="/Custom" component={Custom} /> */}
-        {/* <NavBar /> */}
-        <Navbar2 />
+        <NavBar />
+        {/* <Navbar2 /> */}
        
         <Switch>
           {/* <Route exact path="/Auth" component={Auth} /> */}
