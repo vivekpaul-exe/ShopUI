@@ -43,13 +43,19 @@ class Product extends React.Component{
 
                     {/* card fooler */}
                     <div className = "card-footer d-flex justify-content-between">
-                        <p className="align-self-left mb-0">
+                        <div className='card-text-1'>
+                            <p className="align-self-left mb-0">
                             {title}
-                        </p>
-                        <h5 className="align-self-left mb-0">
+                            </p>
+                        </div>
+                        
+                        <div className='card-text-2'>
+                            <h5 className="align-self-left mb-0 font-weight-bolder">
                             <span className="mr-1">$</span>
                             {price}
                         </h5>
+                        </div>
+                        
                     </div>
                 </div>      
             </ProductWrapper>
@@ -99,6 +105,15 @@ const ProductWrapper = styled.div`
         padding:1em !important;
         margin:auto;
         overflow:hidden;
+    }
+    .card-text-1 {
+        font-size:1.em;
+        
+
+    }
+    .card-text-2 {
+        font-size:1.7em;
+        
     }
     .card-img-top{
         transition:all 1s linear;
