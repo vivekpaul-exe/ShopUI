@@ -29,7 +29,7 @@ export default class NavBar extends React.Component{
         `;
         
         return(
-            <NavWrapper className="navbar navbar-expand-sm bg-primary navbar-dark px-sm-5">
+            <NavWrapper className="navbar navbar-expand-lg bg-primary navbar-dark px-sm-5">
                 {/* 
                 https://www.iconfinder.com/icons/1243689/call_phone_icon
                 Creative Commons (Attribution 3.0 Unported);
