@@ -95,7 +95,7 @@ const HeroWrapper= styled.div`
 
 },
 .container {
-    max-width:1440px !important;
+    max-width:1140px !important;
 
 },
 
