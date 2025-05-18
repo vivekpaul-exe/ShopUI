@@ -71,14 +71,20 @@ const HeroWrapper= styled.div`
     display:flex;
     text-align:center;
     font-weight:800;
-    font-family:Manrope;
-    font-size:3em;
+    
 },
 .head-text-1 {
     font-color:800;
+    text-align:center;
+    font-family:Manrope;
+    font-size:3em;
+    font-color:#19161F;
 },
 .head-text-2 {
     font-color:800;
+    font-family:Manrope;
+    font-size:3em;
+    font-color:#8D5FB9;
 
 },
 .hero-text-detail{
