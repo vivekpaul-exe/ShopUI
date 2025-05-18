@@ -29,7 +29,11 @@ class ProductList extends React.Component{
                     
                 
                     <div className="container">
-                        <Title name = "Our" title ="Products"/>
+                        <div className='heading-text'>
+                            <div className='head-text-1'>Our</div>
+                             <div className='head-text-1'>Products</div>
+                        </div>
+                        {/* <Title name = "Our" title ="Products"/> */}
                         <div className ="row">
                             <ProductConsumer >
                                 {value =>{
@@ -63,6 +67,20 @@ const HeroWrapper= styled.div`
     color: #F9F9F9 !important;
     padding:1em;
 },
+.heading-text{
+    display:flex;
+    text-align:center;
+    font-weight:800;
+    font-family:Manrope;
+    font-size:3em;
+},
+.head-text-1 {
+    font-color:800;
+},
+.head-text-2 {
+    font-color:800;
+
+},
 .hero-text-detail{
     font-family:Manrope;
     display:flex;
@@ -71,28 +89,29 @@ const HeroWrapper= styled.div`
 
 },
 .container {
-    max-width:1440px,
+    max-width:1440px !important;
 
 },
 
 .top-hero{
     font-family:Manrope;
     font-weight:800;
-    font-size:96px;
+    font-size:3em;
 },
 herp-text-2 {
     font-family:Manrope;
-    font-weight:300 !important;
+    font-weight:400 !important;
     color: #F9F9F9 !important;
     font-size:40px !important;
-    margin-top:3.6em !important;
+    margin-top:1.8em !important;
 },
 hero-text-3 {
     font-family:Manrope;
-    font-weight:600 !important;
+    font-weight:800 !important;
     color: #F9F9F9 !important;
-    font-size:40px !important;
-    font-weight:600 !important;
+    text-align:left;
+    font-size:1em !important;
+    
 },
 h1 {
     text-align: center;

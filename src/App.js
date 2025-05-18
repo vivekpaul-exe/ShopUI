@@ -29,7 +29,7 @@ export default function App(){
       <React.Fragment>
         {/* <Route exact path="/Custom" component={Custom} /> */}
         <NavBar />
-        <Navbar2 />
+        {/* <Navbar2 /> */}
        
         <Switch>
           {/* <Route exact path="/Auth" component={Auth} /> */}
