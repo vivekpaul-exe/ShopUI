@@ -27,7 +27,7 @@ class Details extends React.Component{
                                 {/* Pridcuts Text */}
                                 <div className="col-10 mx-auto col-md-6  text-capitalize my-3">
                                     <h2>model: {title}</h2>
-                                    <h4 classname="text-title text-uppercase text-muted mt-3 mb-2">
+                                    <h4 classname="text-title text-lowercase text-muted mt-3 mb-2">
                                         made by : <span className ="text-uppercase">
                                         {company}</span>
 

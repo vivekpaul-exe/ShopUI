@@ -91,7 +91,9 @@ export default class NavBar extends React.Component{
 }
 const NavWrapper = styled.nav
 `
-background:var(--mainPurple) !important;
+background:#8D5FB9 !important;
+width:100%;
+height:4.3em;
 .nav-link{
     color:var(--mainWhite) !important;
     font-size:1.0rem;
@@ -134,7 +136,7 @@ button.search_button {
     background-color: var(--mainGreen);
     border-color: var(--mainGreen);
     width: 6em;
-    height:2.3em;
+    height:2.4em;
 
     border-radius: 12em 24em 24em 11em;
     margin-left: -6em;
